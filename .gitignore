@@ -1,0 +1,74 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.venv/
+
+# =========================
+# SSL / Certificates (ZEER BELANGRIJK)
+# =========================
+*.pem
+*.key
+*.crt
+*.cer
+certs/
+keys/
+
+# expliciet (belangrijk voor jouw project)
+cert.pem
+key.pem
+server.key
+server.crt
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+log/
+
+# =========================
+# Docker
+# =========================
+docker-compose.override.yml
+*.pid
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Node-RED (indien gebruikt in dezelfde repo)
+# =========================
+node_modules/
+data/
+flows*.json.backup
+
+# =========================
+# Temporary / test files
+# =========================
+tmp/
+temp/
+*.tmp
+
+# =========================
+# Raspberry Pi / system files
+# =========================
+*.bak
+*.backup
